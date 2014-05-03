@@ -1,0 +1,19 @@
+I don't know where or how to report bugs so...
+I have python3.4 on wiindows 8
+I tried to download nltk-3.0a3.win32.exe
+I received an error message when I tried to install...
+"could not create key - nltk-py3.4"
+
+followed by
+"could not set key value python 3.4 nltk-3.0a3"
+
+The install hasn't worked as an import of nltk produces
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    import nltk
+  File "C:\Python34\lib\site-packages\nltk\__init__.py", line 111, in <module>
+    from .yamltags import *
+  File "C:\Python34\lib\site-packages\nltk\yamltags.py", line 10, in <module>
+    import yaml
+ImportError: No module named 'yaml'
+
